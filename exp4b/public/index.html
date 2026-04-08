@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Quiz App</h1>
+    <p class="subtitle">Powered by Open Trivia DB API</p>
+
+    <section class="controls">
+      <label for="questionCount">Number of questions:</label>
+      <select id="questionCount">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="15">15</option>
+      </select>
+      <button id="startBtn">Start Quiz</button>
+    </section>
+
+    <section id="status" class="status"></section>
+    <section id="quiz" class="quiz"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

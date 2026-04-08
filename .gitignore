@@ -1,0 +1,16 @@
+# Dependencies
+**/node_modules/
+
+# Environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+*.key
+*.pem
+*.p12
+
+# Common secret config files
+apikeys.json
+secrets.json
+config.local.json
